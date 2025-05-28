@@ -1,0 +1,13 @@
+Downloading: https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1m/BTCUSDT-1m-2025-05-27.zip
+No file for 1m 2025-05-27 (status 404)
+Downloading: https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2025-05-27.zip
+No file for 5m 2025-05-27 (status 404)
+Downloading: https://data.binance.vision/data/spot/daily/klines/BTCUSDT/15m/BTCUSDT-15m-2025-05-27.zip
+No file for 15m 2025-05-27 (status 404)
+Downloading: https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1h/BTCUSDT-1h-2025-05-27.zip
+No file for 1h 2025-05-27 (status 404)
+Resampled 5m rows: 774109
+Resampled 15m rows: 258043
+Resampled 1h rows: 64524
+Feature table refreshed: btc_features_5m
+Nightly ETL complete.

@@ -1,0 +1,87 @@
+2025-05-24 20:04:33 | INFO     | 🟢 Logger initialized successfully!
+2025-05-24 20:04:33 | WARNING  | ⚠️ Example warning message.
+2025-05-24 20:04:33 | ERROR    | ❌ Example error message.
+2025-05-24 20:04:33 | CRITICAL | 🚨 Critical system failure simulation.
+2025-05-24 20:08:05 | INFO     | 📈 Trade Logged: buy 0.01 BTC/USDT | Entry: 30000 | Exit: 30750 | PnL: 75.00 | Strategy: Breakout Sniper
+2025-05-24 21:43:55 | INFO     | 📈 Trade Logged | BUY 1.5 BTC/USDT | Entry: 100.0 → Exit: 112.0 | PnL: 18.00 | Strategy: Breakout Sniper | Confidence: 0.91
+2025-05-24 21:47:07 | INFO     | 🔁 Starting Volatix AI Loop...
+2025-05-24 21:47:11 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:47:46 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:48:20 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:48:54 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:49:29 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:50:03 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:50:38 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:51:12 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:51:46 | WARNING  | ⚠️ Skipping loop – Candle fetch failed.
+2025-05-24 21:52:09 | INFO     | 🔁 Starting Volatix AI Loop...
+2025-05-24 21:52:19 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:52:19 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:52:19 | INFO     | ⏳ No trade: 🛑 Daily loss limit hit. Trading disabled for today.
+2025-05-24 21:52:58 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:52:58 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:52:58 | INFO     | ⏳ No trade: 🛑 Daily loss limit hit. Trading disabled for today.
+2025-05-24 21:53:38 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:53:38 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:53:38 | INFO     | ⏳ No trade: 🛑 Daily loss limit hit. Trading disabled for today.
+2025-05-24 21:53:59 | INFO     | 🔁 Starting Volatix AI Loop...
+2025-05-24 21:54:09 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:54:09 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:54:09 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:54:49 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:54:49 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:54:49 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:55:28 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: doji | 📐 Chart: double_top
+2025-05-24 21:55:28 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:55:28 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:56:09 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:56:09 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:56:09 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:56:48 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:56:48 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:56:48 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:57:28 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:57:28 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:57:28 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:58:08 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:58:08 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:58:08 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:58:47 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:58:47 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:58:47 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 21:59:27 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 21:59:27 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 21:59:27 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:00:07 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: doji | 📐 Chart: double_top
+2025-05-24 22:00:07 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:00:07 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:00:46 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:00:46 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:00:46 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:01:26 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:01:26 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:01:26 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:02:06 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:02:06 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:02:06 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:02:45 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:02:45 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:02:45 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:03:25 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:03:25 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:03:25 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:04:05 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:04:05 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:04:05 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:04:44 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:04:44 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:04:44 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:05:24 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: doji | 📐 Chart: double_top
+2025-05-24 22:05:24 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:05:24 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:06:04 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: doji | 📐 Chart: double_top
+2025-05-24 22:06:04 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:06:04 | INFO     | ⏳ No trade: Strategy is wait
+2025-05-24 22:06:44 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Pattern: None | 📐 Chart: double_top
+2025-05-24 22:06:44 | INFO     | 🎯 Strategy Selected: wait
+2025-05-24 22:06:44 | INFO     | ⏳ No trade: Strategy is wait

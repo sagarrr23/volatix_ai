@@ -1,0 +1,505 @@
+2025-05-25 20:20:25 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 20:20:34 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:20:34 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:20:34 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:21:14 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:21:14 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:21:14 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:21:54 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:21:54 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:21:54 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:22:33 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:22:33 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:22:33 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:23:13 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:23:13 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:23:13 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:23:53 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:23:53 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:23:53 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:24:33 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:24:33 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:24:33 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:25:12 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:25:12 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:25:12 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:25:52 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:25:52 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:25:52 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:26:31 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:26:31 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:26:31 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:27:11 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:27:11 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:27:11 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:27:51 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:27:51 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:27:51 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:28:30 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:28:30 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:28:30 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:29:10 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:29:10 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:29:10 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:29:50 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:29:50 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:29:50 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:30:29 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:30:29 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:30:29 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:31:09 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:31:09 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:31:09 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:31:49 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:31:49 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:31:49 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:32:28 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:32:28 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:32:28 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:33:08 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:33:08 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:33:08 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:33:48 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:33:48 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:33:48 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:34:27 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:34:27 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:34:27 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:35:07 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:35:07 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:35:07 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:35:47 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:35:47 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:35:47 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:36:27 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:36:27 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:36:27 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:37:06 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:37:06 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:37:06 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:37:46 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:37:46 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:37:46 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:38:25 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:38:25 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:38:25 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:39:05 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:39:05 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:39:05 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:39:45 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:39:45 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:39:45 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:40:24 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:40:24 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:40:24 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:41:04 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:41:04 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:41:04 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:41:44 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:41:44 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:41:44 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:42:23 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:42:23 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:42:23 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:43:03 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:43:03 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:43:03 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:43:43 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:43:43 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:43:43 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:44:23 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:44:23 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:44:23 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:45:02 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:45:02 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:45:02 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:45:42 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:45:42 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:45:42 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:46:22 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:46:22 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:46:22 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:47:02 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:47:02 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:47:02 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:47:41 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:47:41 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:47:41 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:48:21 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:48:21 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:48:21 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:49:01 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:49:01 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:49:01 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:49:41 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:49:41 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:49:41 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:50:20 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:50:20 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:50:20 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:51:00 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:51:00 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:51:00 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:51:39 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:51:39 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:51:39 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:52:19 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:52:19 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:52:19 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:52:59 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:52:59 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:52:59 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:53:38 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:53:38 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:53:38 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:54:18 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:54:18 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:54:18 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:54:58 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 20:54:58 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:54:58 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:55:37 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:55:37 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:55:37 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 20:56:17 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 20:56:17 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-25 20:56:17 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-25 21:37:58 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 21:38:04 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:38:39 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:39:15 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:39:51 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:40:26 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:41:02 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:41:38 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:42:14 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:42:50 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:43:26 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:44:01 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:44:37 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:45:13 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:45:48 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:46:24 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:47:00 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:47:35 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:48:11 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:48:47 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:49:23 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:49:58 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:50:34 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:51:10 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:51:46 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:52:21 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:52:57 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:53:33 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:54:08 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:54:43 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:54:54 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 21:55:00 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:55:36 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:56:12 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:56:48 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:57:24 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:57:59 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:58:35 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:59:11 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 21:59:46 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:00:22 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:00:58 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:01:34 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:02:10 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:02:46 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:03:22 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:03:58 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:04:34 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:05:10 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:05:45 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:06:21 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:06:57 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:07:32 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:08:08 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:08:43 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:09:19 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:09:55 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:10:30 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:11:06 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:11:42 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:12:28 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 22:12:34 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:13:10 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:13:45 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:14:21 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:14:57 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:15:32 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:16:08 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:16:43 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:17:19 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:17:54 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:18:29 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:18:59 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 22:19:05 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:19:41 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:20:16 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:20:52 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:21:28 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:22:04 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:22:40 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:23:15 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:23:51 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:24:27 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:24:43 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 22:24:48 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:25:28 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 22:25:33 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:26:09 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:26:45 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:27:20 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:27:56 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:28:31 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:29:07 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:29:43 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:30:19 | WARNING  | ⚠️ Skipping cycle — one or more timeframes failed to load.
+2025-05-25 22:31:00 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-25 22:31:10 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 22:31:10 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:31:10 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:31:49 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 22:31:49 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:31:49 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:32:29 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 22:32:29 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:32:29 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:33:09 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 22:33:09 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:33:09 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:33:49 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:33:49 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:33:49 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:34:29 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 22:34:29 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:34:29 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:35:09 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:35:09 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:35:09 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:35:49 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:35:49 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:35:49 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:36:28 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:36:28 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:36:28 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:37:08 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:37:08 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:37:08 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:37:48 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: hammer | 📐 Chart: double_top
+2025-05-25 22:37:48 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:37:48 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:38:28 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:38:28 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:38:28 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:39:07 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:39:07 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:39:07 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:39:47 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:39:47 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:39:47 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:40:27 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-25 22:40:27 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:40:27 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-25 22:41:07 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-25 22:41:07 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-25 22:41:07 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 07:48:04 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:48:04 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 07:48:04 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 07:48:44 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:48:44 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 07:48:44 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 07:49:23 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:49:23 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 07:49:23 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 07:50:04 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:50:04 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 07:50:04 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 07:50:44 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:50:44 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 07:50:44 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 07:51:23 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:51:23 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 07:51:23 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 07:52:03 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:52:03 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 07:52:03 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 07:52:43 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:52:43 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 07:52:43 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 07:53:23 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:53:23 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 07:53:23 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 07:54:03 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:54:03 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 07:54:03 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 07:54:43 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:54:43 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 07:54:43 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 07:55:23 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-26 07:55:23 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 07:55:23 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 07:56:02 | INFO     | 📊 Regime: trending_up | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 07:56:02 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 07:56:02 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 17:37:25 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:37:25 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:37:25 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:38:05 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:38:05 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:38:05 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:38:45 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:38:45 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:38:45 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:39:25 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:39:25 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:39:25 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:40:05 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-26 17:40:05 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:40:05 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:40:44 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-26 17:40:44 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:40:45 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:41:25 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:41:25 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:41:25 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:42:04 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:42:04 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:42:04 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:42:44 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:42:44 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:42:44 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:43:24 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:43:24 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:43:24 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:44:04 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:44:04 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:44:04 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:44:44 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:44:44 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:44:44 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:45:24 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:45:24 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:45:24 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:46:03 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:46:03 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:46:03 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:46:43 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:46:43 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:46:43 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:47:23 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:47:23 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:47:23 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:48:03 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:48:03 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:48:03 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:48:43 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:48:43 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:48:43 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:49:22 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:49:22 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:49:22 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:50:02 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:50:02 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:50:02 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:50:42 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:50:42 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:50:42 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:51:22 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:51:22 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:51:22 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:52:02 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:52:02 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:52:02 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:52:41 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:52:41 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:52:41 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:53:21 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:53:21 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:53:21 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:54:01 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:54:01 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:54:01 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:54:41 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:54:41 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:54:41 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:55:21 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-26 17:55:21 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:55:21 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:56:01 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:56:01 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:56:01 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:56:40 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:56:40 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:56:40 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:57:20 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:57:20 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:57:20 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:58:00 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:58:00 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:58:00 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:58:40 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:58:40 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:58:40 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:59:20 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:59:20 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:59:20 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 17:59:59 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 17:59:59 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 17:59:59 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:00:39 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:00:39 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:00:39 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:01:19 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:01:19 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:01:19 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:01:59 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:01:59 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:01:59 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:02:39 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:02:39 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:02:39 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:03:18 | INFO     | 📊 Regime: trending_down | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:03:18 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 18:03:18 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 18:03:58 | INFO     | 📊 Regime: trending_down | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:03:58 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 18:03:58 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 18:04:39 | INFO     | 📊 Regime: trending_down | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:04:39 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 18:04:39 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 18:05:18 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-26 18:05:18 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:05:18 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:05:58 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-26 18:05:58 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:05:58 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:06:38 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-26 18:06:38 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:06:38 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:07:17 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:07:17 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:07:17 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:07:57 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:07:57 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:07:57 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:08:37 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:08:37 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:08:37 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:09:17 | INFO     | 📊 Regime: trending_down | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:09:17 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 18:09:17 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 18:09:57 | INFO     | 📊 Regime: trending_down | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:09:57 | INFO     | 🎯 Strategy Chosen: wait
+2025-05-26 18:09:57 | INFO     | ⏳ Signal Skipped: Strategy is wait
+2025-05-26 18:10:37 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:10:37 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:10:37 | INFO     | ⏳ Signal Skipped: Insufficient data
+2025-05-26 18:11:16 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-26 18:11:16 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-26 18:11:16 | INFO     | ⏳ Signal Skipped: Insufficient data

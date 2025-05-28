@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+{% block title %}📊 Dashboard - Volatix AI{% endblock %}
+
+{% block content %}
+<div class="max-w-7xl mx-auto px-6 py-8">
+
+  <!-- Header -->
+  <div class="mb-8 border-b pb-4 flex justify-between items-center">
+    <div>
+      <h1 class="text-3xl font-bold text-gray-800">📊 Volatix AI Command Center</h1>
+      <p class="text-sm text-gray-500 mt-1">Live overview of strategy intelligence, capital flow, and trading activity.</p>
+    </div>
+    <span class="text-xs font-mono text-gray-400">Mode: <strong class="text-indigo-600 uppercase">{{ config.TRADE_MODE }}</strong></span>
+  </div>
+
+  <!-- Wallet Summary -->
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
+    <div class="bg-white shadow p-5 rounded-lg border-l-4 border-green-600">
+      <h3 class="text-sm text-gray-500 font-semibold">💼 Balance</h3>
+      <p class="text-3xl font-bold text-green-600 mt-1">${{ balance }}</p>
+    </div>
+    <div class="bg-white shadow p-5 rounded-lg border-l-4 border-red-500">
+      <h3 class="text-sm text-gray-500 font-semibold">📉 Daily Loss</h3>
+      <p class="text-3xl font-bold text-red-500 mt-1">${{ daily_loss }}</p>
+    </div>
+    <div class="bg-white shadow p-5 rounded-lg border-l-4 border-yellow-500">
+      <h3 class="text-sm text-gray-500 font-semibold">⚖️ Max Trade Risk</h3>
+      <p class="text-3xl font-bold text-yellow-500 mt-1">${{ max_risk }}</p>
+    </div>
+    <div class="bg-white shadow p-5 rounded-lg border-l-4 {{ 'border-green-600' if can_trade else 'border-red-400' }}">
+      <h3 class="text-sm text-gray-500 font-semibold">🚦 Permission</h3>
+      <p class="text-xl font-semibold mt-2 {{ 'text-green-600' if can_trade else 'text-red-500' }}">
+        {{ "✅ ALLOWED" if can_trade else "🚫 BLOCKED" }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Profile + Strategy -->
+  <div class="grid md:grid-cols-2 gap-6 mb-10">
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-lg font-bold text-indigo-700 mb-3">👤 Operator</h2>
+      <ul class="text-sm text-gray-700 space-y-1">
+        <li><strong>Name:</strong> {{ profile.name or "N/A" }}</li>
+        <li><strong>Email:</strong> {{ profile.email or "N/A" }}</li>
+        <li><strong>Telegram:</strong> @{{ profile.telegram or "N/A" }}</li>
+        <li><strong>Org:</strong> {{ profile.organization or "N/A" }}</li>
+        <li><strong>Tagline:</strong> <em class="text-indigo-600">{{ profile.tagline or "Precision Crypto Intelligence" }}</em></li>
+      </ul>
+    </div>
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-lg font-bold text-indigo-700 mb-3">🧠 Strategy Health</h2>
+      <ul class="text-sm text-gray-700 space-y-1">
+        <li><strong>Active Strategy:</strong> {{ current_strategy or "N/A" }}</li>
+        <li><strong>AI Accuracy:</strong> {{ ai.lstm_accuracy }} | Confidence: {{ ai.lstm_confidence }}</li>
+        <li><strong>RL Mode:</strong> {{ ai.rl_mode }} | Reward: {{ ai.rl_avg_reward }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Expandable Performance Charts -->
+  <div class="bg-white shadow rounded-lg p-6 mb-10">
+    <h2 class="text-xl font-bold text-gray-800 mb-4">📈 Performance Charts</h2>
+    <div id="chartSection" class="relative max-h-[320px] overflow-hidden transition-all duration-300 rounded-md">
+      <div class="flex flex-col md:flex-row gap-6 h-[280px]">
+        <div class="flex-1">
+          <h3 class="text-sm font-semibold text-gray-600 mb-2">📉 Equity Curve</h3>
+          <canvas id="equityChart" class="w-full h-full"></canvas>
+        </div>
+        <div class="flex-1">
+          <h3 class="text-sm font-semibold text-gray-600 mb-2">🔥 Heatmap</h3>
+          <canvas id="heatmapChart" class="w-full h-full"></canvas>
+        </div>
+      </div>
+      <div id="chartFade" class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-white to-transparent"></div>
+    </div>
+    <div class="text-right mt-2">
+      <button onclick="toggleChartExpand()" class="text-indigo-600 font-semibold text-sm">
+        <span id="toggleText">🔍 Expand</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Current Trade -->
+  <div class="bg-white shadow rounded-lg p-6 mb-10">
+    <h2 class="text-xl font-bold text-gray-800 mb-4">🚀 Active Trade</h2>
+    {% if current_trade %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+      <div><strong>🕒 Started:</strong> {{ current_trade.timestamp }}</div>
+      <div><strong>📉 Side:</strong> {{ current_trade.side | upper }}</div>
+      <div><strong>🎯 Entry:</strong> ${{ current_trade.entry_price }}</div>
+      <div><strong>💥 SL / TP:</strong> ${{ current_trade.sl }} / ${{ current_trade.tp }}</div>
+      <div><strong>📦 Size:</strong> {{ current_trade.quantity }}</div>
+      <div><strong>🧠 Strategy:</strong> {{ current_trade.strategy }} ({{ (current_trade.confidence * 100) | round(1) }}%)</div>
+    </div>
+    {% else %}
+    <p class="text-sm text-gray-500 italic">No active trade currently.</p>
+    {% endif %}
+  </div>
+
+  <!-- Recent Trades -->
+  <div class="bg-white shadow rounded-lg p-6">
+    <h2 class="text-xl font-bold text-gray-800 mb-4">📑 Recent Trades</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full text-sm text-left border-collapse">
+        <thead class="bg-gray-100 text-xs font-bold uppercase text-gray-600">
+          <tr>
+            <th class="px-4 py-2">Time</th>
+            <th class="px-4 py-2">Side</th>
+            <th class="px-4 py-2">Qty</th>
+            <th class="px-4 py-2">Entry</th>
+            <th class="px-4 py-2">Exit</th>
+            <th class="px-4 py-2">PnL</th>
+            <th class="px-4 py-2">Strategy</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for t in trades %}
+          <tr class="border-b hover:bg-gray-50">
+            <td class="px-4 py-2">{{ t.timestamp }}</td>
+            <td class="px-4 py-2 {{ 'text-green-600' if t.side == 'buy' else 'text-red-500' }} font-bold">
+              {{ t.side | upper }}
+            </td>
+            <td class="px-4 py-2">{{ t.quantity }}</td>
+            <td class="px-4 py-2">${{ t.entry_price }}</td>
+            <td class="px-4 py-2">${{ t.exit_price }}</td>
+            <td class="px-4 py-2 font-semibold {{ 'text-green-600' if t.pnl > 0 else 'text-red-500' }}">
+              ${{ t.pnl }}
+            </td>
+            <td class="px-4 py-2">
+              <span class="bg-indigo-100 text-indigo-700 text-xs font-semibold px-2 py-1 rounded">
+                {{ t.strategy }}
+              </span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Charts + Toggle -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  function toggleChartExpand() {
+    const section = document.getElementById('chartSection');
+    const fade = document.getElementById('chartFade');
+    const btn = document.getElementById('toggleText');
+
+    if (section.classList.contains('max-h-[320px]')) {
+      section.classList.remove('max-h-[320px]');
+      section.style.maxHeight = '1000px';
+      fade.style.display = 'none';
+      btn.textContent = '🔽 Collapse';
+    } else {
+      section.style.maxHeight = '320px';
+      fade.style.display = 'block';
+      btn.textContent = '🔍 Expand';
+    }
+  }
+
+  // Chart: Equity
+  const equityCtx = document.getElementById('equityChart').getContext('2d');
+  new Chart(equityCtx, {
+    type: 'line',
+    data: {
+      labels: ["Day 1", "Day 2", "Day 3", "Day 4"],
+      datasets: [{
+        label: 'Equity',
+        data: [1000, 1025, 1010, 1070],
+        borderColor: '#4f46e5',
+        tension: 0.3,
+        fill: false
+      }]
+    },
+    options: { responsive: true, maintainAspectRatio: false }
+  });
+
+  // Chart: Heatmap
+  const heatCtx = document.getElementById('heatmapChart').getContext('2d');
+  new Chart(heatCtx, {
+    type: 'bar',
+    data: {
+      labels: ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      datasets: [{
+        label: 'PnL',
+        data: [30, -10, 45, 15, -5],
+        backgroundColor: ['#22c55e', '#ef4444', '#22c55e', '#facc15', '#ef4444']
+      }]
+    },
+    options: { responsive: true, maintainAspectRatio: false }
+  });
+</script>
+{% endblock %}

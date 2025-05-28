@@ -1,0 +1,175 @@
+/* ===== Root Variables ===== */
+:root {
+  --bg-dark: #0f111a;
+  --bg-panel: #1c2130;
+  --text-light: #f3f4f6;
+  --text-muted: #9ca3af;
+  --primary: #4f46e5;
+  --accent: #14b8a6;
+  --error: #ef4444;
+  --success: #22c55e;
+  --warning: #facc15;
+  --hover-bg: #1e293b;
+}
+
+/* ===== Reset & Layout ===== */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 8px;
+}
+
+/* ===== Typography ===== */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: var(--text-light);
+}
+p {
+  color: var(--text-muted);
+}
+
+/* ===== Sidebar ===== */
+aside {
+  background-color: var(--bg-panel);
+  box-shadow: 2px 0 10px rgba(0,0,0,0.5);
+}
+aside nav a {
+  color: var(--text-muted);
+  padding: 10px 16px;
+  border-radius: 6px;
+  display: block;
+  transition: background-color 0.2s ease;
+}
+aside nav a:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* ===== Panels ===== */
+.panel {
+  background-color: var(--bg-panel);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease;
+}
+.panel:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== Cards ===== */
+.card {
+  border-left: 4px solid var(--primary);
+  background: var(--bg-panel);
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+}
+
+/* ===== Table ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: #1e2533;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+td {
+  padding: 12px;
+  border-bottom: 1px solid #2a3145;
+}
+tr:hover {
+  background-color: var(--hover-bg);
+}
+
+/* ===== Buttons ===== */
+button {
+  background: var(--primary);
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+button:hover {
+  background: var(--accent);
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
+}
+
+/* ===== Status Badges ===== */
+.badge-green {
+  background: var(--success);
+  color: white;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.badge-red {
+  background: var(--error);
+  color: white;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.badge-yellow {
+  background: var(--warning);
+  color: black;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+/* ===== Chart Wrappers ===== */
+.chart-wrapper {
+  max-height: 240px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.3s ease;
+}
+.chart-wrapper.expanded {
+  max-height: 500px;
+}
+
+/* ===== Cursor Glow Animation ===== */
+body::before {
+  content: "";
+  position: fixed;
+  top: var(--mouse-y);
+  left: var(--mouse-x);
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle at center, var(--primary) 0%, transparent 80%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.1;
+  z-index: 0;
+  transition: all 0.2s ease;
+}
+
+/* ===== Fade Effect ===== */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-05-25 01:08:05",
+    "symbol": "BTC/USDT",
+    "side": "buy",
+    "qty": 0.01,
+    "entry_price": 30000,
+    "exit_price": 30750,
+    "pnl": 75,
+    "strategy": "Breakout Sniper",
+    "confidence": 0.91,
+    "mode": "backtest"
+  },
+  {
+    "timestamp": "2025-05-25 02:43:55 UTC",
+    "symbol": "BTC/USDT",
+    "side": "BUY",
+    "quantity": 1.5,
+    "entry_price": 100.0,
+    "exit_price": 112.0,
+    "pnl": 18.0,
+    "strategy": "Breakout Sniper",
+    "confidence": 0.91,
+    "mode": "live"
+  }
+]

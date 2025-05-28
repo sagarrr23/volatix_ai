@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="volatix">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}⚡ Volatix AI{% endblock %}</title>
+
+  <!-- Fonts & Theme -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/global.css" />
+
+  <!-- Tailwind + Chart.js -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Tailwind Custom Theme -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Orbitron', 'sans-serif'],
+            mono: ['Space Mono', 'monospace'],
+          },
+          colors: {
+            base: '#0a0f1c',
+            steel: '#1e293b',
+            accent: '#22d3ee',
+            warning: '#facc15',
+            danger: '#ef4444',
+            glow: '#7dd3fc',
+            muted: '#94a3b8',
+            card: '#1e293b',
+            panel: '#111827'
+          },
+          boxShadow: {
+            'bot-glow': '0 0 25px rgba(34, 211, 238, 0.4)',
+            'deep': '0 0 5px rgba(255, 255, 255, 0.05), inset 0 0 5px rgba(34, 211, 238, 0.08)'
+          },
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-base text-white font-mono tracking-tight antialiased">
+
+<!-- Layout -->
+<div class="flex flex-col md:flex-row h-screen">
+
+  <!-- Sidebar -->
+  <aside class="md:w-64 w-full h-full bg-panel text-white border-r border-cyan-500 shadow-xl flex flex-col">
+    <div class="p-6 border-b border-cyan-500">
+      <h1 class="text-2xl font-heading font-bold text-accent tracking-widest">⚡ Volatix AI</h1>
+      <p class="text-xs text-muted mt-1">Autonomous Crypto Intelligence</p>
+    </div>
+
+    <nav class="flex-1 overflow-y-auto px-4 py-6 space-y-3 text-sm font-bold tracking-wide">
+      <a href="/dashboard" class="block px-4 py-2 rounded bg-panel text-muted hover:bg-accent hover:text-base transition duration-200">📊 Dashboard</a>
+      <a href="/wallet" class="block px-4 py-2 rounded bg-panel text-muted hover:bg-accent hover:text-base transition duration-200">💼 Wallet</a>
+      <a href="/trades" class="block px-4 py-2 rounded bg-panel text-muted hover:bg-accent hover:text-base transition duration-200">📈 Trades</a>
+      <a href="/settings" class="block px-4 py-2 rounded bg-panel text-muted hover:bg-accent hover:text-base transition duration-200">⚙️ Settings</a>
+    </nav>
+
+    <div class="px-6 py-4 text-xs text-muted">v1.0.0 • Engine Synced</div>
+  </aside>
+
+  <!-- Main Panel -->
+  <main class="flex-1 overflow-y-auto p-6 bg-base text-cyan-100 scroll-smooth">
+    {% block content %}
+    <!-- Page content -->
+    {% endblock %}
+  </main>
+
+</div>
+
+<!-- Cursor, Glow, Scrollbars -->
+<style>
+  body {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+
+    /* ✅ Custom cursor set here with proper size and fallback */
+   
+  }
+
+  a:hover {
+    text-shadow: 0 0 6px #22d3ee, 0 0 15px #22d3ee;
+    transition: all 0.3s ease;
+  }
+
+  ::selection {
+    background-color: #22d3ee;
+    color: #0a0f1c;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #22d3ee;
+    border-radius: 3px;
+  }
+</style>
+
+</body>
+</html>
