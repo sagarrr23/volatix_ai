@@ -7,17 +7,16 @@ def reversal_sniper_signal(df: pd.DataFrame, higher_tf_bullish: bool = True) -> 
     if len(df) < 30:
         return {"signal": "WAIT", "reason": "Insufficient data"}
 
-    # === Indicators
     df["rsi"] = ta.rsi(df["close"], length=14)
     df["atr"] = ta.atr(df["high"], df["low"], df["close"], length=14)
     df["volume_avg"] = df["volume"].rolling(10).mean()
 
     last = df.iloc[-1]
     prev = df.iloc[-2]
-    candle = None
     body = abs(last["close"] - last["open"])
     range_ = last["high"] - last["low"]
 
+    candle = None
     if body < 0.2 * range_:
         candle = "doji"
     elif last["close"] > last["open"] and (last["open"] - last["low"]) > 2 * body:
@@ -37,11 +36,11 @@ def reversal_sniper_signal(df: pd.DataFrame, higher_tf_bullish: bool = True) -> 
     tail_ratio = (df["high"] - df["close"]).rolling(5).mean() / df["atr"].rolling(5).mean()
     wicks_high = tail_ratio.iloc[-1] > 0.5
 
-    wick_low = (df["close"] - df["low"]).rolling(5).mean() / df["atr"].rolling(5).mean()
-    wicks_low = wick_low.iloc[-1] > 0.5
-
     if oversold and candle in ["hammer", "bullish_engulfing", "doji"] and volume_fade and higher_tf_bullish and not wicks_high:
         return {"signal": "BUY", "reason": f"{candle} + RSI {rsi:.2f} oversold + vol fade + HTF bullish"}
+
+    wick_low = (df["close"] - df["low"]).rolling(5).mean() / df["atr"].rolling(5).mean()
+    wicks_low = wick_low.iloc[-1] > 0.5
 
     if overbought and candle in ["shooting_star", "bearish_engulfing", "doji"] and volume_fade and not higher_tf_bullish and not wicks_low:
         return {"signal": "SELL", "reason": f"{candle} + RSI {rsi:.2f} overbought + vol fade + HTF bearish"}

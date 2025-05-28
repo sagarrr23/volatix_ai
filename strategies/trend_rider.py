@@ -21,14 +21,15 @@ def trend_rider_signal(df: pd.DataFrame, higher_tf_bullish: bool = True) -> dict
     prev = df.iloc[-2]
 
     ema_up = last["ema_10"] > last["ema_20"] > last["ema_50"]
-    macd_up = last["macd_hist"] > 0 and last["macd_hist"] > prev["macd_hist"]
     ema_down = last["ema_10"] < last["ema_20"] < last["ema_50"]
+    macd_up = last["macd_hist"] > 0 and last["macd_hist"] > prev["macd_hist"]
     macd_down = last["macd_hist"] < 0 and last["macd_hist"] < prev["macd_hist"]
+    vol_ok = last["vol_spike"]
 
-    if ema_up and macd_up and last["vol_spike"] and higher_tf_bullish:
+    if ema_up and macd_up and vol_ok and higher_tf_bullish:
         return {"signal": "BUY", "reason": "Trend up: EMA stack + rising MACD + volume spike"}
 
-    if ema_down and macd_down and last["vol_spike"] and not higher_tf_bullish:
+    if ema_down and macd_down and vol_ok and not higher_tf_bullish:
         return {"signal": "SELL", "reason": "Trend down: EMA stack + falling MACD + volume spike"}
 
     return {"signal": "WAIT", "reason": "No clear trend with volume confirmation"}
