@@ -1,19 +1,28 @@
 import sys
 import os
-sys.path.append(os.path.abspath('.'))
-
-import torch
 import numpy as np
-from ai.tft_model import TemporalFusionTransformer  # ✅ This will now work
+import torch
+import torch.nn as nn
 
- 
-MODEL_PATH = "models/tft_brain.pt"
-SEQ_LEN    = 20  # Same as used in training
-INPUT_DIM  = 60  # You must update if your feature count changes
+# === Fix Python Path ===
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if ROOT_DIR not in sys.path:
+    sys.path.append(ROOT_DIR)
 
-_model = None
+# === Import Model ===
+from ai.tft_model import TemporalFusionTransformer
+
+# === CONFIGURATION ===
+MODEL_PATH = os.path.join(ROOT_DIR, "models", "tft_brain.pt")
+SEQ_LEN    = 20   # Must match training
+INPUT_DIM  = 60   # Must match feature count
+
+_model = None  # Global cached model
 
 def load_model():
+    """
+    Load the trained Temporal Fusion Transformer model.
+    """
     global _model
     if _model is None:
         _model = TemporalFusionTransformer(
@@ -24,37 +33,47 @@ def load_model():
             num_layers=4,
             dropout=0.3
         )
-        _model.load_state_dict(torch.load(MODEL_PATH, map_location="cpu"))
+        _model.load_state_dict(torch.load(MODEL_PATH, map_location=torch.device("cpu")))
         _model.eval()
-        print("✅ Transformer model loaded.")
-
+        print("✅ Transformer model loaded successfully.")
 
 def predict_next_move(sequence: np.ndarray):
     """
-    sequence: numpy array of shape (SEQ_LEN, INPUT_DIM)
-    returns: dict with direction, confidence, reward
+    Predict the next market move from a given input sequence.
+    
+    Args:
+        sequence (np.ndarray): Shape (SEQ_LEN, INPUT_DIM)
+    
+    Returns:
+        dict: {
+            'direction': 'Buy' | 'Sell' | 'Wait',
+            'confidence': float,
+            'reward': float
+        }
     """
     if _model is None:
         load_model()
 
     if sequence.shape != (SEQ_LEN, INPUT_DIM):
-        raise ValueError(f"Expected input shape {(SEQ_LEN, INPUT_DIM)}, got {sequence.shape}")
+        raise ValueError(f"❌ Invalid input shape: Expected {(SEQ_LEN, INPUT_DIM)}, got {sequence.shape}")
 
-    input_tensor = torch.tensor(sequence, dtype=torch.float32).unsqueeze(0)  # (1, seq_len, input_dim)
+    input_tensor = torch.tensor(sequence, dtype=torch.float32).unsqueeze(0)  # Shape: (1, SEQ_LEN, INPUT_DIM)
+    
     with torch.no_grad():
-        out_dir, out_conf, out_reward = _model(input_tensor)
+        dir_logits, confidence, reward = _model(input_tensor)
 
-    dir_idx = torch.argmax(out_dir, dim=1).item()
+    direction_idx = torch.argmax(dir_logits, dim=1).item()
     dir_map = {0: "Sell", 1: "Wait", 2: "Buy"}
 
     return {
-        "direction": dir_map.get(dir_idx, "Unknown"),
-        "confidence": round(out_conf.item(), 4),
-        "reward": round(out_reward.item(), 4)
+        "direction": dir_map.get(direction_idx, "Unknown"),
+        "confidence": round(confidence.item(), 4),
+        "reward": round(reward.item(), 4)
     }
 
-# 🔁 Test
+# === Standalone Test ===
 if __name__ == "__main__":
-    dummy = np.random.randn(SEQ_LEN, INPUT_DIM)
-    result = predict_next_move(dummy)
-    print("🧠 Prediction:", result)
+    print("🧪 Running test prediction on dummy input...")
+    dummy_input = np.random.randn(SEQ_LEN, INPUT_DIM)
+    result = predict_next_move(dummy_input)
+    print("🧠 Prediction Result:", result)
