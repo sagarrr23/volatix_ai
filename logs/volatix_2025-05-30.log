@@ -1,0 +1,23 @@
+2025-05-30 14:04:28 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-30 14:04:38 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: None | 📐 Chart: double_top
+2025-05-30 14:04:38 | ERROR    | 🔥 Loop Error: select_strategy() got an unexpected keyword argument 'candle_pattern'
+2025-05-30 14:05:17 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-30 14:05:17 | ERROR    | 🔥 Loop Error: select_strategy() got an unexpected keyword argument 'candle_pattern'
+2025-05-30 14:05:57 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: True | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-30 14:05:57 | ERROR    | 🔥 Loop Error: select_strategy() got an unexpected keyword argument 'candle_pattern'
+2025-05-30 14:06:37 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: bearish_engulfing | 📐 Chart: double_top
+2025-05-30 14:06:37 | ERROR    | 🔥 Loop Error: select_strategy() got an unexpected keyword argument 'candle_pattern'
+2025-05-30 14:07:17 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: bearish_engulfing | 📐 Chart: double_top
+2025-05-30 14:07:17 | ERROR    | 🔥 Loop Error: select_strategy() got an unexpected keyword argument 'candle_pattern'
+2025-05-30 14:07:57 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: bearish_engulfing | 📐 Chart: double_top
+2025-05-30 14:07:57 | ERROR    | 🔥 Loop Error: select_strategy() got an unexpected keyword argument 'candle_pattern'
+2025-05-30 14:08:42 | INFO     | 🔁 Volatix AI bot loop starting...
+2025-05-30 14:08:52 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: bearish_engulfing | 📐 Chart: double_top
+2025-05-30 14:08:52 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-30 14:08:52 | INFO     | ⏳ Signal Skipped: Insufficient data | AI blocked or weak (WAIT, 0.0)
+2025-05-30 14:09:32 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: bearish_engulfing | 📐 Chart: double_top
+2025-05-30 14:09:32 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-30 14:09:32 | INFO     | ⏳ Signal Skipped: Insufficient data | AI blocked or weak (WAIT, 0.0)
+2025-05-30 14:10:11 | INFO     | 📊 Regime: sideways_range | 📈 HTF Bullish: False | 🧠 Candle: doji | 📐 Chart: double_top
+2025-05-30 14:10:11 | INFO     | 🎯 Strategy Chosen: reversal_sniper
+2025-05-30 14:10:11 | INFO     | ⏳ Signal Skipped: Insufficient data | AI blocked or weak (WAIT, 0.0)
