@@ -1,8 +1,12 @@
+import sys
+import os
+sys.path.append(os.path.abspath('.'))
+
 import torch
 import numpy as np
-import os
+from ai.tft_model import TemporalFusionTransformer  # ✅ This will now work
 
-from ai.tft_model import TemporalFusionTransformer  # Correct brain
+ 
 MODEL_PATH = "models/tft_brain.pt"
 SEQ_LEN    = 20  # Same as used in training
 INPUT_DIM  = 60  # You must update if your feature count changes
