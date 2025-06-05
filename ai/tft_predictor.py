@@ -1,79 +1,91 @@
-import sys
 import os
-import numpy as np
+import sys
 import torch
-import torch.nn as nn
+import numpy as np
+import torch.serialization
 
-# === Fix Python Path ===
+# === Root Path Fix ===
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-if ROOT_DIR not in sys.path:
-    sys.path.append(ROOT_DIR)
+sys.path.append(ROOT_DIR)
 
-# === Import Model ===
-from ai.tft_model import TemporalFusionTransformer
+# === Imports ===
+from ai.tft_trainer import AdvancedTFT
+from core.config_loader import BotConfig
 
-# === CONFIGURATION ===
-MODEL_PATH = os.path.join(ROOT_DIR, "models", "tft_brain.pt")
-SEQ_LEN    = 20   # Must match training
-INPUT_DIM  = 60   # Must match feature count
+# === Constants from Config ===
+SEQ_LEN = BotConfig.SEQ_LEN
+FEATURE_DIM = BotConfig.TFT_FEATURE_DIM
+MODEL_PATH = os.path.join(ROOT_DIR, BotConfig.MODEL_PATH)
+FUTURE_STEP_DEFAULT = 1
 
-_model = None  # Global cached model
+# === Global Cache ===
+_model = None
+_checkpoint = None
 
 def load_model():
     """
-    Load the trained Temporal Fusion Transformer model.
+    Loads the trained TFT model from a full checkpoint with PyTorch 2.6+ safe unpickling.
     """
-    global _model
-    if _model is None:
-        _model = TemporalFusionTransformer(
-            input_dim=INPUT_DIM,
-            hidden_size=256,
-            seq_len=SEQ_LEN,
-            heads=4,
-            num_layers=4,
-            dropout=0.3
-        )
-        _model.load_state_dict(torch.load(MODEL_PATH, map_location=torch.device("cpu")))
-        _model.eval()
-        print("✅ Transformer model loaded successfully.")
+    global _model, _checkpoint
 
-def predict_next_move(sequence: np.ndarray):
+    if _model is None:
+        _model = AdvancedTFT(input_size=FEATURE_DIM)
+
+        # ✅ PyTorch 2.6 fix: allow safe globals for NumPy scalar
+        torch.serialization.add_safe_globals([np.core.multiarray.scalar])
+
+        # ✅ Load full checkpoint
+        _checkpoint = torch.load(MODEL_PATH, map_location=torch.device("cpu"), weights_only=False)
+        if 'model_state_dict' not in _checkpoint:
+            raise RuntimeError("❌ Checkpoint does not contain 'model_state_dict'. Verify training code.")
+
+        _model.load_state_dict(_checkpoint['model_state_dict'])
+        _model.eval()
+
+        print("✅ TFT model loaded from checkpoint.")
+        print(f"📈 Accuracy: {_checkpoint.get('accuracy', 'N/A')}")
+        print(f"📅 Epoch: {_checkpoint.get('epoch', 'N/A')}")
+
+def predict_next(sequence: np.ndarray, future_step: int = FUTURE_STEP_DEFAULT) -> dict:
     """
-    Predict the next market move from a given input sequence.
-    
+    Predict market direction, confidence, and reward using the trained model.
+
     Args:
-        sequence (np.ndarray): Shape (SEQ_LEN, INPUT_DIM)
-    
+        sequence (np.ndarray): Input sequence of shape (SEQ_LEN, FEATURE_DIM)
+        future_step (int): Horizon to predict [1, 3, 6]
+
     Returns:
-        dict: {
-            'direction': 'Buy' | 'Sell' | 'Wait',
-            'confidence': float,
-            'reward': float
-        }
+        dict: { direction: str, confidence: float, reward: float }
     """
     if _model is None:
         load_model()
 
-    if sequence.shape != (SEQ_LEN, INPUT_DIM):
-        raise ValueError(f"❌ Invalid input shape: Expected {(SEQ_LEN, INPUT_DIM)}, got {sequence.shape}")
+    if sequence.shape != (SEQ_LEN, FEATURE_DIM):
+        raise ValueError(f"❌ Invalid input shape: Expected {(SEQ_LEN, FEATURE_DIM)}, got {sequence.shape}")
 
-    input_tensor = torch.tensor(sequence, dtype=torch.float32).unsqueeze(0)  # Shape: (1, SEQ_LEN, INPUT_DIM)
-    
+    x = torch.tensor(sequence, dtype=torch.float32).unsqueeze(0)  # Shape: (1, SEQ_LEN, FEATURE_DIM)
+
     with torch.no_grad():
-        dir_logits, confidence, reward = _model(input_tensor)
+        output = _model(x)
+        step_out = output.get(future_step)
+        if step_out is None:
+            raise ValueError(f"❌ No output for step {future_step}. Valid: {list(output.keys())}")
 
-    direction_idx = torch.argmax(dir_logits, dim=1).item()
-    dir_map = {0: "Sell", 1: "Wait", 2: "Buy"}
+    direction_idx = torch.argmax(step_out["direction"], dim=1).item()
 
     return {
-        "direction": dir_map.get(direction_idx, "Unknown"),
-        "confidence": round(confidence.item(), 4),
-        "reward": round(reward.item(), 4)
+        "direction": {0: "Sell", 1: "Wait", 2: "Buy"}.get(direction_idx, "Unknown"),
+        "confidence": round(float(step_out["confidence"].item()), 4),
+        "reward": round(float(step_out["reward"].item()), 4)
     }
 
-# === Standalone Test ===
+# === CLI Test Mode ===
 if __name__ == "__main__":
-    print("🧪 Running test prediction on dummy input...")
-    dummy_input = np.random.randn(SEQ_LEN, INPUT_DIM)
-    result = predict_next_move(dummy_input)
-    print("🧠 Prediction Result:", result)
+    print("🔍 Testing TFT Predictor...")
+    dummy_input = np.random.randn(SEQ_LEN, FEATURE_DIM)
+    try:
+        result = predict_next(dummy_input, future_step=1)
+        print("🧠 Prediction:", result)
+    except Exception as e:
+        print(f"❌ Prediction failed: {e}")
+    print("✅ Test completed.")
